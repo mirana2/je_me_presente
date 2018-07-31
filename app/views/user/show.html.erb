@@ -1,0 +1,6 @@
+Voici notre communauté:
+<% @users.each do |user| %>
+    <%= user.username %>
+    <%= user.bio %>
+    <hr />
+<% end %>

@@ -1,0 +1,6 @@
+<form method="post" action="new">
+    <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+    <label>username: <input type="text" name="username" class="form-control" required="autofocus"/></label><br/>
+    <label>bio: <input type="text" name="bio" class="form-control" required="autofocus"/></label><br/>
+    <input type="submit" value="M'inscrire" class="btn btn-primary"/>
+</form>
